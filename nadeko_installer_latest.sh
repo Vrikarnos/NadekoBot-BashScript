@@ -7,7 +7,7 @@ then
     echo ""
     echo "Git Installed."
 else
-    echo ""
+    echo ""    
     echo "Git is not installed. Please install Git."
     exit 1
 fi
@@ -32,7 +32,7 @@ cd "$tempdir"
 
 echo ""
 echo "Downloading NadekoBot, please wait."
-git clone -b 1.4 --recursive --depth 1 https://github.com/Vrikarnos/NadekoBot.git
+git clone -b 1.4 --recursive --depth 1 https://github.com/Kwoth/NadekoBot.git
 echo ""
 echo "NadekoBot downloaded."
 
